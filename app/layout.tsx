@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "Nikah & Walima Invitation – Humza & Farheen",
-        description: "You're invited! View the full invitation and RSVP online.",
+        description: "Join us to celebrate this blessed union. Tap to view details.",
         images: ["https://nikah-invitation.vercel.app/banner.png"],
     },
 };
