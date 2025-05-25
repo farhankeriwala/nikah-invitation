@@ -1,9 +1,9 @@
-import {Dancing_Script, Karla} from "next/font/google";
+import {Parisienne, Karla} from "next/font/google";
 
-export const dancingScript = Dancing_Script({
+export const parisienne = Parisienne({
     subsets: ["latin"],
-    weight: ["400", "700"],
-    variable: "--font-dancing-script",
+    weight: ["400"],
+    variable: "--font-parisienne",
     display: "swap",
 })
 

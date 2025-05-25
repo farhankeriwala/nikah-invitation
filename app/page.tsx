@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {Card, CardContent, CardFooter} from "@/components/ui/card";
-import {dancingScript, karla} from "@/fonts";
+import {parisienne, karla} from "@/fonts";
 import {IconBrandWhatsapp} from "@tabler/icons-react";
 import Link from "next/link";
 
@@ -24,9 +24,11 @@ export default function Home() {
                             Mr. & Mrs. Hifzur-Rehman Kaka cordially request the honour of your presence at the Nikkah
                             and Walima celebration of their beloved son
                         </h1>
-                        <h2 className={`text-6xl md:text-7xl font-bold ${dancingScript.className} text-[#a1664c]`}>Humza</h2>
-                        <p className={`text-4xl md:text-6xl font-bold ${dancingScript.className} text-[#a1664c]`}>&</p>
-                        <h2 className={`text-6xl md:text-7xl font-bold ${dancingScript.className} text-[#a1664c]`}>Farheen</h2>
+                        <div className={"my-8 flex flex-col items-center space-y-2"}>
+                            <h2 className={`text-7xl md:text-7xl font-bold ${parisienne.className} text-[#a1664c]`}>Humza</h2>
+                            <p className={`text-5xl md:text-6xl font-bold ${parisienne.className} text-[#a1664c]`}>&</p>
+                            <h2 className={`text-7xl md:text-7xl font-bold ${parisienne.className} text-[#a1664c]`}>Farheen</h2>
+                        </div>
                     </div>
 
                     <section className="mt-10 text-[#5f4d3f] space-y-10">
