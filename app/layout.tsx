@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Nikah & Walima Invitation – Humza & Farheen",
     description: "You're cordially invited to the Nikah and Walima ceremony of Humza and Farheen. View details and RSVP online.",
     openGraph: {
@@ -30,7 +30,6 @@ export const metadata = {
             },
         ],
     },
-
 };
 
 export default function RootLayout({
