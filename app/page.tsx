@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { dancingScript, karla } from "@/fonts";
-import { IconBrandGoogleMaps, IconBrandWhatsapp } from "@tabler/icons-react";
+import { IconBrandWhatsapp } from "@tabler/icons-react";
 import Link from "next/link";
 
 export default function Home() {
