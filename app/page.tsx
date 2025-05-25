@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {Card, CardContent, CardFooter} from "@/components/ui/card";
-import {parisienne, karla} from "@/fonts";
+import {karla, parisienne} from "@/fonts";
 import {IconBrandWhatsapp} from "@tabler/icons-react";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ export default function Home() {
                 <CardContent className="space-y-8 px-8 py-12">
                     <div className="space-y-6">
                         <Image
-                            src="/assets/bismillah.png"
+                            src="/bismillah.png"
                             alt="bismillah"
                             width={300}
                             height={40}
@@ -64,19 +64,19 @@ export default function Home() {
                     </section>
                 </CardContent>
 
-                <CardFooter className="flex justify-center py-6">
-                    <Link
-                        href={"https://maps.app.goo.gl/LwF2jimNDSEJ45NT6?g_st=com.google.maps.preview.copy"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group relative inline-flex items-center justify-center px-8 py-3 rounded-full bg-[#8b5e3c] text-white font-medium shadow-lg hover:bg-[#70492e] transition duration-300 overflow-hidden"
-                    >
-                        <span
-                            className="absolute inset-0 w-full h-full bg-gradient-to-r from-[#a87b5c] to-[#8b5e3c] opacity-0 group-hover:opacity-20 transition duration-300"/>
-                        <IconBrandWhatsapp className="h-5 w-5 mr-2 text-white z-10"/>
-                        <span className="z-10">RSVP via WhatsApp</span>
-                    </Link>
-                </CardFooter>
+                {/*<CardFooter className="flex justify-center py-6">*/}
+                {/*    <Link*/}
+                {/*        href={"https://maps.app.goo.gl/LwF2jimNDSEJ45NT6?g_st=com.google.maps.preview.copy"}*/}
+                {/*        target="_blank"*/}
+                {/*        rel="noopener noreferrer"*/}
+                {/*        className="group relative inline-flex items-center justify-center px-8 py-3 rounded-full bg-[#8b5e3c] text-white font-medium shadow-lg hover:bg-[#70492e] transition duration-300 overflow-hidden"*/}
+                {/*    >*/}
+                {/*        <span*/}
+                {/*            className="absolute inset-0 w-full h-full bg-gradient-to-r from-[#a87b5c] to-[#8b5e3c] opacity-0 group-hover:opacity-20 transition duration-300"/>*/}
+                {/*        <IconBrandWhatsapp className="h-5 w-5 mr-2 text-white z-10"/>*/}
+                {/*        <span className="z-10">RSVP via WhatsApp</span>*/}
+                {/*    </Link>*/}
+                {/*</CardFooter>*/}
             </Card>
 
             <footer className="mt-12 text-sm text-[#7a6654]">
