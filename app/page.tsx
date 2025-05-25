@@ -1,7 +1,6 @@
 import Image from "next/image";
-import {Card, CardContent, CardFooter} from "@/components/ui/card";
+import {Card, CardContent} from "@/components/ui/card";
 import {karla, parisienne} from "@/fonts";
-import {IconBrandWhatsapp} from "@tabler/icons-react";
 import Link from "next/link";
 
 export default function Home() {
