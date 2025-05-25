@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "/assets/images/banner.png",
+                url: "https://nikah-invitation.vercel.app/assets/images/banner.png", // ✅ absolute path
                 width: 1200,
                 height: 630,
                 alt: "Humza & Farheen Nikah Invitation",
