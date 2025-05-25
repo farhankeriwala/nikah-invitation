@@ -17,40 +17,32 @@ export default function Home() {
                   height={50}
                   className="mx-auto"
               />
-              <h1 className={`text-2xl md:text-3xl mt-12 ${karla.className} text-[#5f4d3f]`}>
-                We, Mr & Mrs Hifzur-Rehman Kaka, are delighted to invite you to the Nikkah and Walima of our beloved son
+              <h1 className={`text-xl md:text-2xl my-12 ${karla.className} text-[#5f4d3f]`}>
+                Mr. & Mrs. Hifzur-Rehman Kaka, are delighted to invite you to the Nikkah and Walima of our beloved son
               </h1>
-              <h1 className={`text-6xl md:text-7xl font-bold ${dancingScript.className} text-[#a1664c]`}>Humza</h1>
-              <p className={`text-4xl md:text-6xl font-bold ${dancingScript.className} text-[#a1664c]`}>&</p>
-              <h1 className={`text-6xl md:text-7xl font-bold ${dancingScript.className} text-[#a1664c]`}>Farheen</h1>
+              <h1 className={`text-7xl font-bold ${dancingScript.className} text-[#a1664c]`}>Humza</h1>
+              <p className={`text-5xl font-bold ${dancingScript.className} text-[#a1664c]`}>&</p>
+              <h1 className={`text-7xl font-bold ${dancingScript.className} text-[#a1664c]`}>Farheen</h1>
             </div>
 
-            <div className="mt-8 text-[#5f4d3f] space-y-6">
+            <section className="mt-8 text-[#5f4d3f] space-y-6">
               <div className="shadow-lg rounded-xl p-6">
                 <h3 className="text-2xl font-semibold mb-2">Nikkah</h3>
                 <div className="space-y-1">
                   <p><strong>Date:</strong> Saturday, 31st May 2025</p>
                   <p><strong>Time:</strong> 10:00 AM</p>
-                  <p><strong>Venue:</strong> Shahi Jama Masjid, Near Ellis Bridge</p>
+                  <Link className={"text-blue-600 hover:underline"} href={"https://www.google.com/maps/place/Shahi+Jam-e-Masjid+Bhadra/@23.0214014,72.5736345,1286m/data=!3m1!1e3!4m10!1m2!2m1!1ssahi+juma+masjid+ahmedabad!3m6!1s0x395e8452046d29cb:0xa5b8924b54c806dc!8m2!3d23.0227183!4d72.5789408!15sChpzYWhpIGp1bWEgbWFzamlkIGFobWVkYWJhZFocIhpzYWhpIGp1bWEgbWFzamlkIGFobWVkYWJhZJIBBm1vc3F1ZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSaWFrczNiVXhCRUFFqgFZEAEqFCIQc2FoaSBqdW1hIG1hc2ppZCgAMh8QASIb6CyxApN0k6SfWIdZAtB1py2ODIekEXU4ozYnMh4QAiIac2FoaSBqdW1hIG1hc2ppZCBhaG1lZGFiYWTgAQD6AQQIABAZ!16s%2Fm%2F012dwtpy?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"}><strong>Venue:</strong> Shahi Jama Masjid, Near Ellis Bridge, Lal Darwaja, Ahmedabad</Link>
                 </div>
               </div>
-
               <div className="shadow-lg rounded-xl p-6">
                 <h3 className="text-2xl font-semibold mb-2">Walima</h3>
                 <div className="space-y-1">
                   <p><strong>Date:</strong> Saturday, 31st May 2025</p>
                   <p><strong>Time:</strong> 8:00 PM</p>
-                  <Link
-                      className="flex items-center gap-2 text-blue-600 hover:underline"
-                      href="https://www.google.com/maps?q=XG94+2V+Crystal+Farm,+Ahmedabad,+Sarkhej-Okaf,+Gujarat+380055&ftid=0x395e9b63a4b655b1:0x93e9ec94981d3037"
-                      target="_blank"
-                  >
-                    <IconBrandGoogleMaps className="h-5 w-5" />
-                    Crystal Farm, Sarkhej-Okaf, Ahmedabad
-                  </Link>
+                  <Link href={"https://maps.app.goo.gl/oHMnfniyGtkeqjN48?g_st=iw"} className={"text-blue-600 hover:underline"}><strong>Venue:</strong> Crystal Farm, Sarkhej-Olaf, Ahmedabad</Link>
                 </div>
               </div>
-            </div>
+            </section>
           </CardContent>
 
           <CardFooter className="flex justify-center py-6">
