@@ -66,7 +66,7 @@ export default function Home() {
 
                 <CardFooter className="flex justify-center py-6">
                     <Link
-                        href="https://wa.me/447490410160?text=Assalamu%20Alaikum%2C%20I%20would%20be%20honoured%20to%20attend%20the%20Nikah%20and%20Walima%20ceremony%20of%20Humza%20and%20Farheen.%20Please%20count%20me%20in."
+                        href={"https://maps.app.goo.gl/LwF2jimNDSEJ45NT6?g_st=com.google.maps.preview.copy"}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group relative inline-flex items-center justify-center px-8 py-3 rounded-full bg-[#8b5e3c] text-white font-medium shadow-lg hover:bg-[#70492e] transition duration-300 overflow-hidden"
