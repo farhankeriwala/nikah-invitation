@@ -78,7 +78,7 @@ export default function Home() {
             </Card>
 
             <footer className="mt-12 text-sm text-[#7a6654]">
-                With love, <br/> Mr & Mrs Hifzur Rehman Kaka
+                Mr & Mrs Hifzur Rehman Kaka
             </footer>
         </main>
     );
